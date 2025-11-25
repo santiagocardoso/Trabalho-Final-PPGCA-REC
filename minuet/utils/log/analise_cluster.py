@@ -169,7 +169,7 @@ def plot_comparative_lines(all_metrics_by_scenario, output_dir):
     # --- RENOMEADO PARA INGLÊS ---
     metrics_to_plot = {
         'avg_rtt_ms': ("Average RTT", "RTT (ms)"),
-        'overhead_total': ("Total Overhead", "Number of Packets"),
+        'overhead_total': ("Total Overhead", "Number of Control Messages"),
         'total_ch_elections': ("Total CH Elections", "Number of Events"),
         'avg_cluster_lifetime': ("Average Cluster Duration", "Time (s)"),
         'avg_cluster_size': ("Average Cluster Size", "Number of Members"),
@@ -221,7 +221,7 @@ def export_latex_tables(all_metrics_by_scenario, output_dir):
     # --- RENOMEADO PARA INGLÊS ---
     metrics_to_export = {
         'avg_rtt_ms': ("Average RTT (ms)", "{:.2f}"),
-        'overhead_total': ("Total Overhead (packets)", "{:.0f}"),
+        'overhead_total': ("Total Overhead (control messages)", "{:.0f}"),
         'total_ch_elections': ("Total CH Elections", "{:.0f}"),
         'avg_cluster_lifetime': ("Average Cluster Duration (s)", "{:.2f}"),
         'avg_cluster_size': ("Average Cluster Size (members)", "{:.2f}")
