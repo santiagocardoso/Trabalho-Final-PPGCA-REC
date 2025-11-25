@@ -1,5 +1,4 @@
-# IC Gradis Sociable Fork
-Este repositório é um fork do projeto SOCIABLE desenvolvido pelo laboratório LUMO da UFPB, com alterações na função RelayElection.
+# Trabalho Final PPGCA REC
 
 ## Clonar a pasta do projeto
 `make copy-sociable`
@@ -21,4 +20,5 @@ Este repositório é um fork do projeto SOCIABLE desenvolvido pelo laboratório 
 `make build`  
 `make run`  
 `make rundb` (modo debug)
+
 
